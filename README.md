@@ -7,7 +7,7 @@ An example is to ask the script to find all occurrences starting with the letter
 
 ## Steps to run it (on MS-Windows):
 - Download and install [Perl](https://www.activestate.com/products/perl/downloads/)
-- Extract project file ntspf.zip to some folder (e.g., `c:\users\machine\desktop`)
+- Clone this project or download .zip file (on GitHub interface, click on `<> Code > Download ZIP file > main.zip`) to your preferred folder (e.g., `c:\users\machine\desktop`)
 - Run a command line interface (CLI) on MS-Windows: `command.exe`
 - Go to the folder you ran: `cd c:\users\machine\desktop\ntspf`
 - Run script: `perl run.pl GCF_000006765.1_ASM676v1_protein.faa ML`
