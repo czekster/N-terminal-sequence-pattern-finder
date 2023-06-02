@@ -1,6 +1,6 @@
 # N-terminal-sequence-pattern-finder
 
-This project describes the **NTSPF: N-terminal Sequence Pattern Finder** project.
+This project describes the **N-terminal Sequence Pattern Finder** project.
 
 This is a Perl script that will traverse an input file having **SEQUENCES OF SOMETHING** and it will look for specific patterns as specified by a user input.
 An example is to ask the script to find all occurrences starting with the letter "M", it will return all matched instances starting with M and all of its OFFSPRING, eg "MLA", "MLD" and subsequently, counting them all and yielding an output file for other in-depth fine-tuned analysis.
