@@ -39,4 +39,10 @@ MLY = 3
 
 Test other patterns: `perl run.pl GCF_000006765.1_ASM676v1_protein.faa MK`
 
+## Files
+- Main Perl script: `run.pl`
+- example input file: `GCF_000006765.1_ASM676v1_protein.faa` PUT DESCRIPTION HERE
+- Output files
+  - Running for pattern 'MK': `results_MK_06-43-39.txt`
+  - Running for pattern 'ML': `results_ML_06-43-36.txt`
 
