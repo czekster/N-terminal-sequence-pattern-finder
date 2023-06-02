@@ -46,3 +46,8 @@ Test other patterns: `perl run.pl GCF_000006765.1_ASM676v1_protein.faa MK`
   - Running for pattern 'MK': `results_MK_06-43-39.txt`
   - Running for pattern 'ML': `results_ML_06-43-36.txt`
 
+## Authors
+- Clarissa M. Czekster - put-your@email-here
+- Ricardo M. Czekster - rczekster@gmail.com
+
+
