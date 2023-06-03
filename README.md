@@ -12,7 +12,7 @@ An example is to ask the script to find all occurrences starting with the letter
 - Download and install [Perl](https://www.activestate.com/products/perl/downloads/)
 - Clone this project or download .zip file (on GitHub interface, click on `<> Code > Download ZIP file > main.zip`) to your preferred folder (e.g., `c:\users\machine\desktop`)
 - Run a Command Line Interface (CLI) on MS-Windows: `command.exe`
-- Go to the folder you ran: `cd c:\users\machine\desktop\ntspf`
+- Go to the folder you extracted the file: `cd c:\users\machine\desktop\main` (it will depend on the file name you downloaded)
 - Run script: `perl run.pl GCF_000006765.1_ASM676v1_protein.faa ML`
   - For this case, it yields: `I have found 316 occurrences. I put them on file 'results_ML_04-41-10.txt'.` (the name of the file states the pattern - ML - followed by the time `HH-MM-SS` - hour-minute-second - that it ran)
 
@@ -29,7 +29,7 @@ It will produce the following output:
 
 ## Files
 - Main Perl script: `run.pl`
-- example input file: `GCF_000006765.1_ASM676v1_protein.faa` PUT DESCRIPTION HERE
+- example input file: `GCF_000006765.1_ASM676v1_protein.faa` - protein sequences as fasta
 - Output files
   - Running for pattern 'MK': `results_MK_06-43-39.txt`
   - Running for pattern 'ML': `results_ML_06-43-36.txt`
