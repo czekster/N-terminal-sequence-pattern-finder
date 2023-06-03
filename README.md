@@ -2,9 +2,9 @@
 
 This project describes the **N-terminal Sequence Pattern Finder** project.
 
-This is a Perl script that will traverse an input fasta file having ** protein sequences as fasta, i.e.: 
-1. First line of each query protein must begin with a greater-than (">") symbol in the first column. Word(s) following the ">" symbol is/are the identifier and description of the sequence.
-2. The amino acid sequence (in single-character code) begins in a different line and ends if another line starting with a ">" appears, which indicates the start of another query protein. ** and it will look for specific patterns as specified by a user input.
+This is a Perl script that will traverse an input fasta file having **protein sequences as fasta**, i.e.: 
+1. First line of each query protein must begin with a greater-than (">") symbol in the first column. Word(s) following the `">"` symbol is/are the identifier and description of the sequence.
+2. The amino acid sequence (in single-character code) begins in a different line and ends if another line starting with a `">"` appears, which indicates the start of another query protein. It will look for specific patterns as specified by a user input.
 
 An example is to ask the script to find all occurrences starting with the letter "M", it will return all matched instances starting with M and all of its OFFSPRING, eg "MLA", "MLD" and subsequently, counting them all and yielding an output file for other in-depth fine-tuned analysis.
 
