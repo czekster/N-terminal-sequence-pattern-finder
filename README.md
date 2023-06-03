@@ -11,33 +11,18 @@ An example is to ask the script to find all occurrences starting with the letter
 ## Steps to run it (on MS-Windows):
 - Download and install [Perl](https://www.activestate.com/products/perl/downloads/)
 - Clone this project or download .zip file (on GitHub interface, click on `<> Code > Download ZIP file > main.zip`) to your preferred folder (e.g., `c:\users\machine\desktop`)
-- Run a command line interface (CLI) on MS-Windows: `command.exe`
+- Run a Command Line Interface (CLI) on MS-Windows: `command.exe`
 - Go to the folder you ran: `cd c:\users\machine\desktop\ntspf`
 - Run script: `perl run.pl GCF_000006765.1_ASM676v1_protein.faa ML`
+  - For this case, it yields: `I have found 316 occurrences. I put them on file 'results_ML_04-41-10.txt'.` (the name of the file states the pattern - ML - followed by the time `HH-MM-SS` - hour-minute-second - that it ran)
 
 This example will take as input the file `GCF_000006765.1_ASM676v1_protein.faa` (available here for testing purposes) and it will run for the pattern `ML`.
 It will produce the following output:
 ```
-ML = 316
-MLA = 16
-MLD = 22
-MLE = 26
-MLF = 8
-MLG = 16
-MLH = 5
-MLI = 23
-MLK = 24
-MLL = 25
-MLM = 3
-MLN = 22
-MLP = 17
-MLQ = 9
-MLR = 36
-MLS = 27
-MLT = 20
-MLV = 10
-MLW = 4
-MLY = 3
+[>NP_248753.1 hypothetical protein PA0063 [Pseudomonas aeruginosa PAO1]]: MLVGRRAVRVLCYVPPMPRRLRHPLADLRLPRWVPCLALLALSGCSTVSYYGQLASGQFALLRAREPAAAVIADPQRDAR
+[>NP_248772.1 hypothetical protein PA0082 [Pseudomonas aeruginosa PAO1]]: MLDVPVLLAAVSPDSPCGDDLEYDAAFLELERIAQGQPERQMGDAVLPAEPPEWPRVRALASELFGRSKDLRVANLLLQS
+[>NP_248790.1 hypothetical protein PA0100 [Pseudomonas aeruginosa PAO1]]: MLKKLSPIFSNITGVVRYQDLAYVASVSDEIQEQNIAHSYVTEWDCGTWCVAGEDDDMLPWEIVSATVVHEPVEQALFLG
+...
 ```
 
 **How to test other patterns:** run on the terminal, `perl run.pl GCF_000006765.1_ASM676v1_protein.faa MK`
